@@ -1,0 +1,44 @@
+Slide {
+  flex: 1
+  font-size: 200%
+  max-width: 800px
+
+  background: #333
+  padding: 40px
+  border-radius: 10px
+
+  h1, h2, h3 {
+    margin-top: 0.5em
+    font-weight: normal
+    text-align: center
+  }
+
+  h1 + h2, h3 + h3 {
+    margin-top: -1em
+  }
+
+  h1 {
+    margin-top:0
+  }
+
+  h2 {
+    color: #AAA
+  }
+
+  h3.github {
+    color: #BEA668
+  }
+
+  h3.twitter {
+    color: #76ACE2
+  }
+
+  p {
+    font-size: 90%
+  }
+
+  img {
+    display: block
+    margin: auto
+  }
+}
