@@ -54,6 +54,7 @@ function playNote(note, shape, attack, at, duration){
   //adsr.connect(output.gain)
   //adsr.attack = attack
   //adsr.release = 0.6
+  //adsr.value = 0.3
   //adsr.start(at)
 
   //stopAt = adsr.stop(stopAt)
