@@ -69,7 +69,7 @@ function playNote(note, shape, attack, at, duration){
   //filter.frequency.value = 600
 
 
-  //// modulate filter frequency with lfo
+  //// add vibrato by modulating oscillator frequency with lfo
   //var LFO = require('lfo')
   //var lfo = LFO(audio)
   //lfo.amp.value = 4
