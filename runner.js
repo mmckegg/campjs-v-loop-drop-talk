@@ -23,7 +23,7 @@ var launchpad = MidiStream('Launchpad Mini')
 launchpad.write([176, 0, 0]) // all lights off!
 launchpad.write([144, 4, 127])
 launchpad.write([144, 5, 127])
-launchpad.write([144, 15, 127])
+launchpad.write([144, 6, 127])
 */
 
 
