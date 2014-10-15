@@ -35,6 +35,7 @@ Slide {
 
   p {
     font-size: 90%
+    text-align: center
   }
 
   img {

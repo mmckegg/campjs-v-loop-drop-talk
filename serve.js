@@ -11,8 +11,6 @@ module.exports = serve
 
 function serve(entryPath, opts){
 
-
-
   var opts = opts || {}
   var server = http.createServer(respond)
   var clients = []
