@@ -205,11 +205,10 @@ var launchpad = LaunchpadControl(midiPort, looper)
 scheduler.pipe(launchpad)
 
 function playMidi(data){
-  var id = data[1] // transpose
   if (data[2]){
-    synth.triggerOn(audio.currentTime, id, data[2])
+    synth.triggerOn(audio.currentTime, data[1], data[2])
   } else {
-    synth.triggerOff(audio.currentTime, id)
+    synth.triggerOff(audio.currentTime, data[1])
   }
 }
 
