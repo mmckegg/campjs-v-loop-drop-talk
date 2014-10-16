@@ -9,13 +9,14 @@ dump(4, -3.06, 'sine', 0.1)
 dump(6, -3.06, 'triangle', 0.1)
 dump(7, -3.00, 'square', 0.1)
 dump(8, -3.06, 'triangle', 0.1)
-dump(12, -3.06, 'sine', 0.4)
+dump(12, -3.06, 'sine', 0.4, 12)
 dump(13, -3.06, 'square', 0.4)
 
 require('fs').writeFile('./song.json', JSON.stringify(result))
 
-function dump(trackId, offset, shape, attack){
+function dump(trackId, offset, shape, attack, transpose){
   var time = offset || 0
+  transpose = transpose || 0
   var onNotes = {}
   midi.tracks[trackId].forEach(function(event){
     time += event.deltaTime / 500
@@ -25,7 +26,7 @@ function dump(trackId, offset, shape, attack){
       var startAt = onNotes[event.noteNumber]
       if (startAt != null){
         result.push([
-          event.noteNumber, 
+          event.noteNumber + transpose, 
           shape,
           attack,
           round(startAt), 
