@@ -1,7 +1,7 @@
 JavaScript Audio / MIDI
 ============================
 
-Code/slides from talk given at Wellington.js meetup on 16 October 2014
+Code/slides from talk given at the [October Wellington.js meetup](http://www.meetup.com/WellingtonJS/events/210914402/)
 
 ```bash
 git clone https://github.com/mmckegg/wellington-js-loop-drop-talk.git
