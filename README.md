@@ -3,6 +3,10 @@ JavaScript Audio / MIDI
 
 Code/slides from talk given at the [October Wellington.js meetup](http://www.meetup.com/WellingtonJS/events/210914402/)
 
+Short clip of the Loop Drop demo recorded by Shaun O'Connell: http://vimeo.com/109195013
+
+[This is the song I was attempting to play live](https://soundcloud.com/lunarmusic/destroy-with-science-time-travellers-die) (but butchering horribly) 
+
 ```bash
 git clone https://github.com/mmckegg/wellington-js-loop-drop-talk.git
 cd wellington-js-loop-drop-talk
