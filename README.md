@@ -1,7 +1,7 @@
 JavaScript Audio / MIDI
 ============================
 
-Code from talk given at Wellington.js meetup on 16 October 2014
+Code/slides from talk given at Wellington.js meetup on 16 October 2014
 
 ```bash
 git clone https://github.com/mmckegg/wellington-js-loop-drop-talk.git
@@ -12,10 +12,10 @@ npm start
 
 Navigate to http://localhost:1624
 
-/runner.js is the main node file (node midi examples)
-/entry.js is the browserified javascript running in browser (containing Web Audio examples and slides)
-/start.als is the Ableton Live project file used for the first example
-/midi-dump.js generates the /song.json file by extracting notes from /song.midi
+- [runner.js](runner.js) is the main node file (node midi examples)
+- [entry.js](entry.js) is the browserified javascript running in browser (containing Web Audio examples and slides)
+- [start.als](start.als) is the Ableton Live project file used for the first example
+- [midi-dump.js](midi-dump.js) generates the [song.json](song.json) file by extracting notes from [song.mid](song.mid)
 
 Changing either file will reload the browser / restart the node server.
 
