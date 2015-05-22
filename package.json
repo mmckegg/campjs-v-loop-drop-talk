@@ -11,24 +11,17 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "adsr": "^0.1.0",
-    "bopper": "^2.2.3",
     "browserify": "^6.1.0",
     "catw": "^0.2.0",
     "concat-stream": "^1.4.6",
     "ditty": "^1.2.0",
     "ecstatic": "^0.5.5",
-    "lfo": "^2.0.0",
     "mercury": "^8.0.0",
     "micro-css": "^0.5.0",
     "midi-file-parser": "^1.0.0",
-    "midi-looper": "^1.1.0",
-    "midi-looper-launchpad": "^0.6.0",
-    "midi-stream": "^0.2.0",
     "shoe": "0.0.15",
     "sse": "0.0.6",
     "supervisor": "^0.6.0",
     "watchify": "^2.0.0",
-    "web-midi": "^0.3.0"
   }
 }
