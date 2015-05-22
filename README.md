@@ -1,11 +1,13 @@
-JavaScript Audio / MIDI
-============================
+![Loop Drop Logo](https://raw.githubusercontent.com/mmckegg/loop-drop-app/master/icon128.png)
 
-Code/slides from talk given at the [October Wellington.js meetup](http://www.meetup.com/WellingtonJS/events/210914402/)
+# Destroying Electronic Music with JavaScript
 
-Short clip of the Loop Drop demo recorded by Shaun O'Connell: http://vimeo.com/109195013
+My dark path into the depths of javascript based midi looping
+and what eventually drove me to write my own electronic music performance software called [Loop Drop](https://loopjs.com).
 
-[This is the song I was attempting to play live](https://soundcloud.com/lunarmusic/destroy-with-science-time-travellers-die) (but butchering horribly) 
+- [github.com/mmckegg](https://github.com/mmckegg)
+- [twitter.com/MattMcKegg](https://github.com/mmckegg)
+- [soundcloud.com/destroy-with-science](soundcloud.com/destroy-with-science)
 
 ```bash
 git clone https://github.com/mmckegg/wellington-js-loop-drop-talk.git
@@ -23,4 +25,6 @@ Navigate to http://localhost:1624
 
 Changing either file will reload the browser / restart the node server.
 
-See https://github.com/mmckegg/loop-drop-app for instructions on how to build and run the app.
+## Loop Drop
+
+Find the repo at [github.com/mmckegg/loop-drop-app](https://github.com/mmckegg/loop-drop-app) or just [install the Chrome App](https://chrome.google.com/webstore/detail/loop-drop/lbihechibofgmjpfnegjblhoicglanbj).

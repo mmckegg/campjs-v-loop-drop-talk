@@ -7,6 +7,6 @@ module.exports = function(){
     h('h2', 'any questions?'),
     h('h3.github', 'github.com/mmckegg/loop-drop-app'),
     h('h3.twitter', 'twitter.com/MattMcKegg'),
-    h('h3.soundcloud', 'soundcloud.com/lunarmusic')
+    h('h3.soundcloud', 'soundcloud.com/destroy-with-science')
   ])
 }

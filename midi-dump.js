@@ -29,8 +29,8 @@ function dump(trackId, offset, shape, attack, transpose){
           event.noteNumber + transpose, 
           shape,
           attack,
-          round(startAt), 
-          round(time - startAt)
+          clamp(round(startAt)), 
+          clamp(round(time - startAt))
         ])
       }
       onNotes[event.noteNumber] = null
@@ -40,4 +40,8 @@ function dump(trackId, offset, shape, attack, transpose){
 
 function round(number){
   return Math.round(number * 100) / 100 
+}
+
+function clamp(number) {
+  return Math.max(number, 0)
 }
